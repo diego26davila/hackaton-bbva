@@ -1,27 +1,33 @@
 {
-  "dev": {
-    "awscloudformation": {
-      "AuthRoleName": "amplify-amplifyapp-dev-83006-authRole",
-      "UnauthRoleArn": "arn:aws:iam::263003759251:role/amplify-amplifyapp-dev-83006-unauthRole",
-      "AuthRoleArn": "arn:aws:iam::263003759251:role/amplify-amplifyapp-dev-83006-authRole",
-      "Region": "sa-east-1",
-      "DeploymentBucketName": "amplify-amplifyapp-dev-83006-deployment",
-      "UnauthRoleName": "amplify-amplifyapp-dev-83006-unauthRole",
-      "StackName": "amplify-amplifyapp-dev-83006",
-      "StackId": "arn:aws:cloudformation:sa-east-1:263003759251:stack/amplify-amplifyapp-dev-83006/59690b60-3405-11ec-aa63-0a11e56cf9dc",
-      "AmplifyAppId": "d3r0d5b1j9f02u"
-    },
-    "categories": {
-      "function": {
-        "amplifyauthconfigPreSignup": {
-          "DOMAINALLOWLIST": "gmail.com, hotmail.com",
-          "deploymentBucketName": "amplify-amplifyapp-dev-83006-deployment",
-          "s3Key": "amplify-builds/amplifyauthconfigPreSignup-66585874416e7a6a464f-build.zip"
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-amplifyapp-dev-83006-authRole",
+            "UnauthRoleArn": "arn:aws:iam::263003759251:role/amplify-amplifyapp-dev-83006-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::263003759251:role/amplify-amplifyapp-dev-83006-authRole",
+            "Region": "sa-east-1",
+            "DeploymentBucketName": "amplify-amplifyapp-dev-83006-deployment",
+            "UnauthRoleName": "amplify-amplifyapp-dev-83006-unauthRole",
+            "StackName": "amplify-amplifyapp-dev-83006",
+            "StackId": "arn:aws:cloudformation:sa-east-1:263003759251:stack/amplify-amplifyapp-dev-83006/59690b60-3405-11ec-aa63-0a11e56cf9dc",
+            "AmplifyAppId": "d3r0d5b1j9f02u"
+        },
+        "categories": {
+            "function": {
+                "amplifyauthconfigPreSignup": {
+                    "DOMAINALLOWLIST": "gmail.com, hotmail.com",
+                    "deploymentBucketName": "amplify-amplifyapp-dev-83006-deployment",
+                    "s3Key": "amplify-builds/amplifyauthconfigPreSignup-66585874416e7a6a464f-build.zip"
+                }
+            },
+            "auth": {
+                "amplifyauthconfig": {}
+            },
+            "hosting": {
+                "amplifyhosting": {
+                    "appId": "d3r0d5b1j9f02u",
+                    "type": "manual"
+                }
+            }
         }
-      },
-      "auth": {
-        "amplifyauthconfig": {}
-      }
     }
-  }
 }
